@@ -34,8 +34,8 @@ class KeyGenerator(object):
 	def __init__(self, prefix, length, count, filename):
 		self.prefix 	= str(prefix)
 		self.length 	= int(length)
-		self.count 		= int(count)
-		self.keys 		= set()
+		self.count      = int(count)
+		self.keys       = set()
 		self.alphabet 	= list()
 		self.digits 	= list()
 		self.filename 	= str(filename)
